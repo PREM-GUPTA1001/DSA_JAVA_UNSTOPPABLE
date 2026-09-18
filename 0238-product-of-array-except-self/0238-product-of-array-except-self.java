@@ -3,6 +3,10 @@ class Solution {
         int n = nums.length;
         int[] ans = new int[n];
         // [0,0,0,0]
+        // [24, 12, 8, 6]
+        // left mul --> [1 , 1 ,1 * 2, 1 * 2 * 3] --> [1,1,2,6]
+        // right mul ---> [24 , 12, 4, 1] --> [24, 12, 4, 1]
+        // [2 * 3 * 4, 1 * 3 * 4, 1 * 2 *4 , 1 * 2 * 3]
         int prefix = 1;
         
         // LOGIC IS pehle left side k product us index k pehle tk k nikal le
