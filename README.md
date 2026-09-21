@@ -8,6 +8,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0014-longest-common-prefix) |
+| [0018-4sum](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -58,6 +59,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0005-longest-palindromic-substring) |
+| [0018-4sum](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0141-linked-list-cycle) |
@@ -84,6 +86,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0169-majority-element) |
