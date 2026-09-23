@@ -113,11 +113,13 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0767-reorganize-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0767-reorganize-string) |
 | [0796-rotate-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0796-rotate-string) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1221-split-a-string-in-balanced-strings) |
+| [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
 | [3234-count-the-number-of-substrings-with-dominant-ones](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/3234-count-the-number-of-substrings-with-dominant-ones) |
 ## String Matching
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0796-rotate-string) |
+| [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
 ## Hash Table
 |  |
 | ------- |
@@ -253,4 +255,20 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0215-kth-largest-element-in-an-array) |
+## Rolling Hash
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
+## Hash Function
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
+## Z Algorithm
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
