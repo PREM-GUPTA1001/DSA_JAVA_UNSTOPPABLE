@@ -56,6 +56,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0410-split-array-largest-sum](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0678-valid-parenthesis-string) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
+| [1143-longest-common-subsequence](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1143-longest-common-subsequence) |
 ## Two Pointers
 |  |
 | ------- |
@@ -112,6 +113,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0678-valid-parenthesis-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0678-valid-parenthesis-string) |
 | [0767-reorganize-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0767-reorganize-string) |
 | [0796-rotate-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0796-rotate-string) |
+| [1143-longest-common-subsequence](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1143-longest-common-subsequence) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
 | [3234-count-the-number-of-substrings-with-dominant-ones](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/3234-count-the-number-of-substrings-with-dominant-ones) |
@@ -271,4 +273,8 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 |  |
 | ------- |
 | [1392-longest-happy-prefix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1392-longest-happy-prefix) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
