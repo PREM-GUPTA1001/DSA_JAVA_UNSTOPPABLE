@@ -227,6 +227,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | ------- |
 | [0141-linked-list-cycle](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0142-linked-list-cycle-ii) |
+| [0287-find-the-duplicate-number](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0287-find-the-duplicate-number) |
 ## Matrix
 |  |
 | ------- |
@@ -285,4 +286,8 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0042-trapping-rain-water) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
