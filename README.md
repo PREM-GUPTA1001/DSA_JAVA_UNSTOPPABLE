@@ -32,6 +32,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0724-find-pivot-index](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0724-find-pivot-index) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
 | [0912-sort-an-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0912-sort-an-array) |
+| [0922-sort-array-by-parity-ii](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0922-sort-array-by-parity-ii) |
 | [1441-build-an-array-with-stack-operations](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1441-build-an-array-with-stack-operations) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2956-find-common-elements-between-two-arrays](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2956-find-common-elements-between-two-arrays) |
@@ -73,6 +74,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0392-is-subsequence) |
+| [0922-sort-array-by-parity-ii](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0922-sort-array-by-parity-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Binary Search
 |  |
@@ -102,6 +104,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0645-set-mismatch](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0645-set-mismatch) |
 | [0767-reorganize-string](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0767-reorganize-string) |
 | [0912-sort-an-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0912-sort-an-array) |
+| [0922-sort-array-by-parity-ii](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0922-sort-array-by-parity-ii) |
 ## String
 |  |
 | ------- |
