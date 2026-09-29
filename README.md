@@ -37,6 +37,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 | [0912-sort-an-array](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0912-sort-an-array) |
 | [0922-sort-array-by-parity-ii](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0922-sort-array-by-parity-ii) |
 | [1441-build-an-array-with-stack-operations](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1441-build-an-array-with-stack-operations) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2956-find-common-elements-between-two-arrays](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2956-find-common-elements-between-two-arrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2965-find-missing-and-repeated-values) |
@@ -245,6 +246,7 @@ This repository serves as collection of my solutions to various GeeksforGeeks Da
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/0054-spiral-matrix) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2965-find-missing-and-repeated-values](https://github.com/PREM-GUPTA8851/DSA_JAVA_UNSTOPPABLE/tree/master/2965-find-missing-and-repeated-values) |
 ## Heap (Priority Queue)
 |  |
