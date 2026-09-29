@@ -1,0 +1,289 @@
+## 01. Rotate by 90 degree
+
+The problem can be found at the following link: [Question Link](https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?utm=codolio)
+
+### Problem Description
+
+**Task:** Given a square matrix mat[][] of size n x n. The task is to rotate it by 90 degrees in an anti-clockwise direction without using any extra space. Examples:
+
+#### Examples
+
+##### Example 1
+
+- **Input:**
+```text
+mat[][] = [[0, 1, 2], [3, 4, 5], [6, 7, 8]]
+```
+- **Output:**
+```text
+[[2, 5, 8], [1, 4, 7], [0, 3, 6]]
+```
+
+##### Example 2
+
+- **Input:**
+```text
+mat[][] = [[1, 2], [3, 4]]
+```
+- **Output:**
+```text
+[[2, 4], [1, 3]]
+```
+
+#### Constraints
+
+- **1.** `1 ≤ n ≤ 10²⁰ ≤ mat[i][j] ≤ 10³`
+
+### Time and Auxiliary Space Complexity
+
+- **Expected Time Complexity:** O(n^2)
+- **Expected Auxiliary Space Complexity:** O(1)
+
+### Accepted Solutions (5)
+
+#### Solution 1 (Java)
+
+- **Submitted:** 2026-09-30 02:48:35
+- **Status:** Correct
+- **Marks:** 0
+
+```java
+class Solution {
+    public void rotateMatrix(int[][] mat) {
+
+        // Test Case:
+        // 0 1 2
+        // 3 4 5
+        // 6 7 8
+
+        int n = mat.length;
+
+        // pehle transpose karenge
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) {
+                int temp = mat[i][j];
+                mat[i][j] = mat[j][i];
+                mat[j][i] = temp;
+            }
+        }
+
+        // ab har row ko reverse karenge nahi
+        // anti-clockwise ke liye rows ko reverse order me rakhenge
+        int top = 0;
+        int bottom = n - 1;
+
+        while(top < bottom) {
+            int[] temp = mat[top];
+            mat[top] = mat[bottom];
+            mat[bottom] = temp;
+
+            top++;
+            bottom--;
+        }
+
+        // transpose:
+        // 0 3 6
+        // 1 4 7
+        // 2 5 8
+
+        // rows reverse order:
+        // 2 5 8
+        // 1 4 7
+        // 0 3 6
+    }
+}
+```
+
+#### Solution 2 (Java)
+
+- **Submitted:** 2026-05-23 22:46:38
+- **Status:** Correct
+- **Marks:** 0
+
+```java
+class Solution {
+    public void rotateMatrix(int[][] mat) {
+        // anticlockwise direction --> 
+       //reverse --> transpose
+       /* 
+       matrix-->{
+       [0, 1, 2],     2, 1, 0       2   5   8
+       [3, 4, 5],     5, 4, 3       1   4   7 
+       [6, 7, 8]      8, 7, 6       0   3   6
+       }
+       */
+       
+       // reverse order me same matrix me store 
+       //krna h elements ko
+       // new matrix --> opposite way m hi store krwae
+       // row and column size
+       int row = mat.length; // 3
+       int col = mat[0].length; // 3
+       int[][] str = new int[row][col];
+       
+       for(int i = 0; i < row; i++){
+           for(int j = 0; j < col; j++){
+               str[i][j] = mat[i][col - j - 1];
+           }
+       }
+       // str[0, 0] = mat[0,2] // str--> 2
+       // str[0, 1] = mat[0, 1] // str --> 2 1 
+       // str[0, 2] = mat[0, 0] // str --> 2 1 0
+       // reverse done
+        // now transpose
+        // interchange of rows and columns
+        for(int i = 0; i < row; i++){
+            for(int j = 0; j < col; j++){
+                mat[i][j] = str[j][i];
+            }
+        }
+        
+    }
+}
+```
+
+#### Solution 3 (Java)
+
+- **Submitted:** 2026-05-23 22:31:02
+- **Status:** Correct
+- **Marks:** 0
+
+```java
+class Solution {
+    public void rotateMatrix(int[][] mat) {
+        // anticlockwise direction --> 
+       //reverse --> transpose
+       /* 
+       matrix-->{
+       [0, 1, 2],     2, 1, 0       2   5   8
+       [3, 4, 5],     5, 4, 3       1   4   7 
+       [6, 7, 8]      8, 7, 6       0   3   6
+       }
+       */
+       
+       // reverse order me same matrix me store 
+       //krna h elements ko
+       // new matrix --> opposite way m hi store krwae
+       // row and column size
+       int row = mat.length; // 3
+       int col = mat[0].length; // 3
+       int[][] str = new int[row][col];
+       
+       for(int i = 0; i < row; i++){
+           for(int j = 0; j < col; j++){
+               str[i][j] = mat[i][col - j - 1];
+           }
+       }
+       // str[0, 0] = mat[0,2] // str--> 2
+       // str[0, 1] = mat[0, 1] // str --> 2 1 
+       // str[0, 2] = mat[0, 0] // str --> 2 1 0
+       // reverse done
+        // now transpose
+        // interchange of rows and columns
+        for(int i = 0; i < row; i++){
+            for(int j = 0; j < col; j++){
+                mat[i][j] = str[j][i];
+            }
+        }
+        
+    }
+}
+```
+
+#### Solution 4 (Java)
+
+- **Submitted:** 2026-05-23 22:30:57
+- **Status:** Correct
+- **Marks:** 0
+
+```java
+class Solution {
+    public void rotateMatrix(int[][] mat) {
+        // anticlockwise direction --> 
+       //reverse --> transpose
+       /* 
+       matrix-->{
+       [0, 1, 2],     2, 1, 0       2   5   8
+       [3, 4, 5],     5, 4, 3       1   4   7 
+       [6, 7, 8]      8, 7, 6       0   3   6
+       }
+       */
+       
+       // reverse order me same matrix me store 
+       //krna h elements ko
+       // new matrix --> opposite way m hi store krwae
+       // row and column size
+       int row = mat.length; // 3
+       int col = mat[0].length; // 3
+       int[][] str = new int[row][col];
+       
+       for(int i = 0; i < row; i++){
+           for(int j = 0; j < col; j++){
+               str[i][j] = mat[i][col - j - 1];
+           }
+       }
+       // str[0, 0] = mat[0,2] // str--> 2
+       // str[0, 1] = mat[0, 1] // str --> 2 1 
+       // str[0, 2] = mat[0, 0] // str --> 2 1 0
+       // reverse done
+        // now transpose
+        // interchange of rows and columns
+        for(int i = 0; i < row; i++){
+            for(int j = 0; j < col; j++){
+                mat[i][j] = str[j][i];
+            }
+        }
+        
+    }
+}
+```
+
+#### Solution 5 (Java)
+
+- **Submitted:** 2026-05-23 22:30:07
+- **Status:** Correct
+- **Marks:** 4
+
+```java
+class Solution {
+    public void rotateMatrix(int[][] mat) {
+        // anticlockwise direction --> 
+       //reverse --> transpose
+       /* 
+       matrix-->{
+       [0, 1, 2],     2, 1, 0       2   5   8
+       [3, 4, 5],     5, 4, 3       1   4   7 
+       [6, 7, 8]      8, 7, 6       0   3   6
+       }
+       */
+       
+       // reverse order me same matrix me store 
+       //krna h elements ko
+       // new matrix --> opposite way m hi store krwae
+       // row and column size
+       int row = mat.length; // 3
+       int col = mat[0].length; // 3
+       int[][] str = new int[row][col];
+       
+       for(int i = 0; i < row; i++){
+           for(int j = 0; j < col; j++){
+               str[i][j] = mat[i][col - j - 1];
+           }
+       }
+       // str[0, 0] = mat[0,2] // str--> 2
+       // str[0, 1] = mat[0, 1] // str --> 2 1 
+       // str[0, 2] = mat[0, 0] // str --> 2 1 0
+       // reverse done
+        // now transpose
+        // interchange of rows and columns
+        for(int i = 0; i < row; i++){
+            for(int j = 0; j < col; j++){
+                mat[i][j] = str[j][i];
+            }
+        }
+        
+    }
+}
+```
+
+*Generated on: 30/9/2026, 2:49:30 am*
