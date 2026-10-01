@@ -23,7 +23,7 @@ class Solution {
             // nums2[1] = 2 > nums2[0] = 1
             // normal condition true
 
-            if (nums1[i] > nums1[i - 1] &&
+        if (nums1[i] > nums1[i - 1] &&
                 nums2[i] > nums2[i - 1]) {
 
                 newKeep = Math.min(newKeep, keep);
